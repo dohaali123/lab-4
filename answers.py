@@ -31,6 +31,7 @@ def fastareader(pathToFasta):
                 sequences[current_header] += line
 
     return sequences
+
     
 def getGCpercentage(inputDNA):
     """
