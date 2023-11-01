@@ -10,7 +10,7 @@ def fastareader(pathToFasta):
 
     This function reads a FASTA file, extracts the sequence headers and their corresponding sequences, and returns them
     in a dictionary. The headers are used as keys, and the sequences are the corresponding values.
-    
+
     Example:
     >>> fastareader("test.fasta")
     {'seq1': 'ATCG', 'seq2': 'GCTA', 'seq3': 'CGAT'}
